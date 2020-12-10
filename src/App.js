@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+
+// Components
 import FruitContainer from './components/FruitContainer';
 
 function App() {
-  const fruits = ['banana', 'watermelon', 'apple', 'mango', 'orange', 'kiwi', 'starfruit', 'crabapple', 'grape', 'grapefruit', 'mango', 'mangosteen']
+  const fruits = ['banana', 'watermelon', 'apple', 'orange', 'kiwi', 'starfruit', 'crabapple', 'grape', 'grapefruit', 'mango', 'mangosteen'];
   return (
     <div className="App">
-      <FruitContainer fruits={fruits}/>
+      <FruitContainer fruits={fruits} />
     </div>
   );
 }
